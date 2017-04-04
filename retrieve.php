@@ -4,7 +4,6 @@
         $xml=simplexml_load_file("https://data.dublinked.ie/cgi-bin/rtpi/realtimebusinformation?stopid=".$_POST['stop_id']."&format=xml") or die("Error: Cannot create object");
     }
 
-
     $message = "<table class='table table-striped table-hover table-responsive'>
 		            <tbody>
 		                <th>Due Time</th>
@@ -24,5 +23,5 @@
             $message .= $row;
         }
         $message .= "</tbody></table>";
-        
-    echo $message;
+
+echo $message;
