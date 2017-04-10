@@ -10,6 +10,7 @@
     <body>
         <div class="container">
             <h1 style="text-align:center;text-decoration: underline">Bus Times</h1>
+            <button class="btn btn-primary"><a href="allStops.php"><span style="color:white">All stops</a></span></button>
             <div id="info">
                 <!-- CONTENT GOES HERE -->
             </div>
@@ -25,6 +26,7 @@
             </div>
         </div>
     </body>
+
     <script type="text/javascript">
         $('#stop_form').submit( function (e) {
             $('#info').slideUp('slow');
