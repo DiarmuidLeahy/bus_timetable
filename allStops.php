@@ -15,7 +15,7 @@
 
             <h1 style="text-align:center;text-decoration: underline">All Stops</h1>
             <div id="info">
-            <button class="btn btn-primary"><a href="/bus-times"><span style="color:white">Realtime info</a></span></button>
+            <button class="btn btn-primary"><a href="index.php"><span style="color:white">Realtime info</a></span></button>
                 <table class='table table-striped table-hover table-responsive'>
                     <tbody>
                         <th>ID</th>
