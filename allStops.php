@@ -10,13 +10,12 @@
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
     </head>
-    <body>
+    <body style="background-color: #b7cdf4">
         <div class="container">
-
             <h1 style="text-align:center;text-decoration: underline">All Stops</h1>
-            <div id="info">
-            <button class="btn btn-primary"><a href="index.php"><span style="color:white">Realtime info</a></span></button>
-                <table class='table table-striped table-hover table-responsive'>
+            <div id="info" style="display:none">
+                <button class="btn btn-primary"><a href="index.php"><span style="color:white">Realtime info</span></a></button>
+                <table class='table table-striped table-hover table-responsive' border="solid-black">
                     <tbody>
                         <th>ID</th>
                         <th>Name</th>
@@ -29,7 +28,14 @@
                             <td><?=$res -> operators -> operator -> routes -> route?></td>
                         </tr>
                     <?php } ?>
+                    </tbody>
+                </table>
             </div>
         </div>
     </body>
+    <script type="text/javascript">
+        $(document).ready( function(e) {
+            $('#info').show();
+        });
+    </script>
 </html>
