@@ -7,10 +7,10 @@
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
     </head>
-    <body>
+    <body background="back2.jpg">
         <div class="container">
             <div class="page-header">
-                <h1 style="text-align:center">Bus Times</h1>
+                <h1 style="text-align:center">Realtime Information</h1>
             </div>
             <button class="btn btn-primary"><a href="allStops.php"><span style="color:white">All stops</span></a></button>
             <div id="info">

@@ -3,6 +3,9 @@
     if(isset($_POST['stop_id'])) {
         $xml=simplexml_load_file("https://data.dublinked.ie/cgi-bin/rtpi/realtimebusinformation?stopid=".$_POST['stop_id']."&format=xml") or die("Error: Cannot create object");
     }
+    if($xml -> results -> result -> duetime == null){
+        $message = "<h1 class='alert-danger' style='text-align:center'>No results to display</h1>";
+    } else {
     $message = "<table class='table table-striped table-hover table-responsive table-bordered'>
 		            <tbody>
 		                <th>Due Time</th>
@@ -22,5 +25,5 @@
             $message .= $row;
         }
         $message .= "</tbody></table>";
-
+    }
 echo $message;
