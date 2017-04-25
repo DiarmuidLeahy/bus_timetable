@@ -9,7 +9,9 @@
     </head>
     <body>
         <div class="container">
-            <h1 style="text-align:center;text-decoration: underline">Bus Times</h1>
+            <div class="page-header">
+                <h1 style="text-align:center">Bus Times</h1>
+            </div>
             <button class="btn btn-primary"><a href="allStops.php"><span style="color:white">All stops</span></a></button>
             <div id="info">
                 <!-- CONTENT GOES HERE -->

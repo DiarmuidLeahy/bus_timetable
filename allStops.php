@@ -10,12 +10,18 @@
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
     </head>
-    <body style="background-color: #b7cdf4">
+    <body>
         <div class="container">
-            <h1 style="text-align:center;text-decoration: underline">All Stops</h1>
+            <div class="page-header">
+                <h1 style="text-align:center">All Stops</h1>
+            </div>
             <div id="info" style="display:none">
-                <button class="btn btn-primary"><a href="index.php"><span style="color:white">Realtime info</span></a></button>
-                <table class='table table-striped table-hover table-responsive' border="solid-black">
+                <button class="btn btn-primary">
+                    <a href="index.php">
+                        <span style="color:white">Realtime info</span>
+                    </a>
+                </button>
+                <table class='table table-striped table-hover table-responsive table-bordered'>
                     <tbody>
                         <th>ID</th>
                         <th>Name</th>
