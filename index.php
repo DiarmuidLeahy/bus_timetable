@@ -7,7 +7,7 @@
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
     </head>
-    <body background="back2.jpg">
+    <body>
         <div class="container">
             <div class="page-header">
                 <h1 style="text-align:center">Realtime Information</h1>
